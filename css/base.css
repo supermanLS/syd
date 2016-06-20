@@ -1,0 +1,14 @@
+body,ul,li,input,tr,th,td{
+	margin:0;
+	padding:0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+*{
+	font-family: Microsoft YaHei;
+}
+img{
+	border:0;
+}

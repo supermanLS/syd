@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>商户管理后台</title>
+</head>
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="stylesheet" href="font/iconfont.css">
+<link rel="stylesheet" href="css/jquery-ui.min.css">
+<script src="js/jq.js"></script>
+<script src="js/index.js"></script>
+<script src="layer/layer.js"></script>
+<script src="js/tab.js"></script>
+<body>
+	<div class="box">
+
+		<!-- 导航栏  -->
+		<nav>
+			<div class="navleft">
+				<div class="logo">
+
+				</div>
+				<a href="javascript:;">
+					车汇通
+				</a>
+				商店门户信息管理平台
+			</div>
+			<div class="navright">
+				<div class='photo'>
+					
+				</div>
+				<div class="user">
+					<span>18058154307</span>
+					,欢迎您回来
+				</div>
+				<div class="quit">
+					<i class="iconfont">&#xe60a;</i>
+					退出
+				</div>
+			</div>
+		</nav>
+		<!-- 导航栏 结束 -->
+
+		<div class="inner">
+			<!--  一级导航  -->
+			<ul class='left'>
+				<li ><a href="javascript:;"><i class="iconfont">&#xe609;</i><span>日常事务/开单</span></a></li>
+				<li><a href="javascript:;"><i class="iconfont">&#xe605;</i><span>商品/保存</span></a></li>
+				<li><a href="javascript:;"><i class="iconfont">&#xe607;</i><span>项目/工时</span></a></li>
+				<li><a href="javascript:;"><i class="iconfont">&#xe603;</i><span>财务/收银</span></a></li>
+				<li><a href="javascript:;"><i class="iconfont">&#xe606;</i><span>客户/营销</span></a></li>
+				<li><a href="javascript:;"><i class="iconfont">&#xe608;</i><span>报告/分析</span></a></li>
+				<li><a href="javascript:;"><i class="iconfont">&#xe604;</i><span>基本/资料</span></a></li>
+			</ul>
+			<!--  一级导航 结束 -->
+			<!-- content 开始  -->
+			<div class="content">
+				<!--开单-->
+				<div class="contentbox">
+
+					<a class="con_one con_two" href="javascript:;">
+						<img src="images/one_2.png" alt="">
+					</a>
+					<a class="con_one" href="javascript:;">
+						<img src="images/one_1.png" alt="">
+					</a>
+					<a class="con_one con_three" href="javascript:;">
+						<img src="images/one_3.png" alt="">
+					</a>
+					<a class="con_one con_four" href="javascript:;">
+						<img src="images/one_4.png" alt="">
+					</a>
+					<div class="cbbox">
+						<!--  预约管理  服务流程 充值 套餐 -->
+						<ul class="list">
+							<li class="list-one">预约管理</li>
+							<li>服务流程</li>
+							<li>充值</li>
+							<li>套餐</li>
+						</ul>
+						<div class="search">
+							<div class="search-a">
+								搜索查询
+								<span></span>
+							</div>
+							<input type="text">
+							<div class="data">
+								开始日期
+							</div>
+							<span class="heng">-</span>
+							<div class="data">
+								结束日期
+							</div>
+							<div class="data-a">
+								选日期
+							</div>
+							<span class="xsjl">
+								销售经理:
+							</span>
+							<select name="" id="">
+								<option value ="volvo">姓名</option>
+								<option value ="saab">张三</option>
+								<option value="opel">李四</option>
+								<option value="audi">王五</option>
+							</select>
+							<span class="xsjl">
+								状态:
+							</span>
+							<select name="" id="one">
+								<option value ="volvo">预约中</option>
+								<option value ="saab">张三</option>
+								<option value="opel">李四</option>
+								<option value="audi">王五</option>
+							</select>
+							<div class="find">
+								<span></span>
+								查询
+							</div>
+						</div>
+						<div class="listAll">
+							<!--  预约 管理 -->
+							<div class="listbox">
+								<ul class="list-a">
+									<li class="list-child">管理首页</li>
+									<li>预约列表</li>
+									<li>新增预约</li>
+								</ul>
+								<div class="yygl-box">
+									<ul class="today">
+										<li>
+											<div class="today-top">
+												今日总收入
+											</div>
+											<div class="price">
+												<div><span>￥</span><span class="price-a">310.00</span></div>
+												<div><span>昨日： ￥</span><span class="price-b">310.00</span></div>
+											</div>
+										</li>
+										<li>
+											<div class="today-top">
+												今日订单收入
+											</div>
+											<div class="price">
+												<div><span>￥</span><span class="price-a price-a-1">310.00</span></div>
+												<div><span>昨日： ￥</span><span class="price-b price-b-1">310.00</span></div>
+											</div>
+										</li>
+										<li>
+											<div class="today-top">
+												今日套餐销售:<span>0</span>套
+											</div>
+											<div class="price">
+												<div><span>￥</span><span class="price-a price-a-2">310.00</span></div>
+												<div><span>昨日： ￥</span><span class="price-b price-b-2">310.00</span></div>
+											</div>
+										</li>
+										<li>
+											<div class="today-top">
+												今日客户充值:<span>0</span>次
+											</div>
+											<div class="price">
+												<div><span>￥</span><span class="price-a price-a-3">310.00</span></div>
+												<div><span>昨日： ￥</span><span class="price-b price-b-3">310.00</span></div>
+											</div>
+										</li>
+										<li>
+											<div class="today-top">
+												今日到店客户
+											</div>
+											<div class="price">
+												<div><span>￥</span><span class="price-a price-a-4">310.00</span></div>
+												<div><span>昨日： ￥</span><span class="price-b price-b-4">310.00</span></div>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<!--  服务流程  -->
+							<div class="listbox">
+								<ul class="list-a list-a-a">
+									<li class="list-child">服务列表</li>
+									<li>接待开单</li>
+									<li>派工施工</li>
+									<li>领料退料</li>
+									<li>结算收银</li>
+									<li>车辆车场</li>
+								</ul>
+								<div class="yygl-box">
+									<div class="today today-a">
+										<table  cellspacing="0" width="100%" >
+											<tr >
+												<th>订单号</th>
+												<th>客户</th>
+												<th>电话</th>
+												<th>车辆</th>
+												<th>订单金额</th>
+												<th>应收费用</th>
+												<th>订单时间</th>
+												<th>销售经理</th>
+												<th>维修单状态</th>
+											</tr>
+											<tr class="order">
+												<td><div class="shu"></div>123456</td>
+												<td class="userName">小明同学</td>
+												<td>18435143345</td>
+												<td class="center">浙A456456-兰博基尼</td>
+												<td>$123456</td>
+												<td>$123456</td>
+												<td>5/12 8.58</td>
+												<td>张三</td>
+												<td>123456</td>
+											</tr>
+
+										</table>
+										<ul class="page">
+											<li>上一页</li>
+											<li>1</li>
+											<li>下一页</li>
+										</ul>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+				<!--保存-->
+				<div class="contentbox contentboxa">
+					<a href="javascript:;" class="con-two-one">
+						<img src="images/shop_a.png" alt="">
+					</a>
+					<a href="javascript:;" class="con-two-one con-two-two">
+						<img src="images/shop_b.png" alt="">
+					</a>
+					<a href="javascript:;" class="con-two-one con-two-three">
+						<img src="images/shop_c.png" alt="">
+					</a>
+					<a href="javascript:;" class="con-two-one con-two-four">
+						<img src="images/shop_d.png" alt="">
+					</a>
+					<a href="javascript:;" class="con-two-one con-two-fire">
+						<img src="images/shop_e.png" alt="">
+					</a>
+				</div>
+				<!--工时-->
+				<div class="contentbox contentboxb">
+					<a href="javascript:;" class="con-thr-one">
+						<img src="images/gs1.png" alt="">
+					</a>
+					<a href="javascript:;" class="con-thr-one con-thr-two">
+						<img src="images/gs2.png" alt="">
+					</a>
+					<a href="javascript:;" class="con-thr-one con-thr-thr">
+						<img src="images/gs3.png" alt="">
+					</a>
+				</div>
+				<!--收银-->
+				<div class="contentbox contentboxc">
+					<a href="javascript:;" class="con-a">
+						<img src="images/money-a.png" alt="">
+					</a>
+					<a href="javascript:;" class="con-a con-b">
+						<img src="images/money-b.png" alt="">
+					</a>
+				</div>
+				<!--客户-->
+				<div class="contentbox contentboxd">
+					<a href="javascript:;" class="con-kh">
+						<img src="images/yx1.png" alt="">
+					</a>
+					<a href="javascript:;" class="con-kh con-kha">
+						<img src="images/yx2.png" alt="">
+					</a>
+					<a href="javascript:;" class="con-kh con-khb">
+						<img src="images/yx3.png" alt="">
+					</a>
+				</div>
+				<!--报告-->
+				<div class="contentbox contentboxe">
+					<a href="javascript:;" class="con-bg">
+						<img src="images/sy1.png" alt="">
+					</a>
+					<a href="javascript:;" class="con-bg con-bg-a">
+						<img src="images/sy2.png" alt="">
+					</a>
+				</div>
+				<!--资料-->
+				<div class="contentbox contentboxf">
+					<a href="javascript:;" class="con-zl">
+						<img src="images/zl1.png" alt="">
+						<span>商户管理</span>
+					</a>
+					<a href="javascript:;" class="con-zl con-zl-a">
+						<img src="images/zl2.png" alt="">
+						<span>其他设置</span>
+					</a>
+				</div>
+			</div>
+			<!--  content 结束 -->
+		</div>
+
+
+
+	</div>
+</body>
+<script>
+	$(function() {
+		$('.center').on('click', function () {
+			layer.open({
+				type: 2,
+				title: false,
+				maxmin: true,
+				shadeClose: true, //点击遮罩关闭层
+				area: ['90%', '80%'],
+				content: "pop.html",
+				closeBtn: 2,
+				tips: 1
+
+			});
+		});
+		$('.userName').on('click',function(){
+			layer.open({
+				type: 2,
+				title: false,
+				maxmin: true,
+				shadeClose: true, //点击遮罩关闭层
+				area: ['90%', '80%'],
+				content: "pop-2.html",
+				closeBtn: 2,
+				tips: 1
+
+			});
+		})
+	})
+</script>
+</html>
