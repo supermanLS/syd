@@ -91,14 +91,14 @@ html,body{
     width: 33.333333333%;
     height:100%;
     box-sizing: border-box;
-    padding-right: 15px;
+    padding-right:1%;
     border-left:2px solid #f60;
 }
 .ke-message li{
     width: 66.66666666%;
     height:100%;
     box-sizing: border-box;
-    padding-right: 15px;
+    padding-right:1%;
     border-left:2px solid #f60;
     float: left;
 
@@ -107,7 +107,7 @@ html,body{
     width: 33.3333333%;
 }
 .hu-message li div:first-child,.ke-message li div:first-child,.kehu li div:first-child{
-    width:70px;
+    width:20%;
     height:100%;
     background:#eee;
     color:#6a6a6a;
